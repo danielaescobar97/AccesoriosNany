@@ -1,0 +1,41 @@
+.cart-container {
+    position: relative;
+}
+
+.cart-icon {
+    position: relative;
+    font-size: 24px;
+    color: white;
+}
+
+.cart-img {
+    height: 30px;
+    width: auto;
+}
+
+.item-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.cart-dropdown {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+    z-index: 1000;
+}
+
+.cart-container:hover .cart-dropdown {
+    display: block;
+}
